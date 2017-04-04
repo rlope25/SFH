@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_Calendar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Historia" />
+        <item
+            android:id="@+id/nav_Stories"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cuentos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fotos" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Facebook"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_Youtube"
+                android:icon="@drawable/ic_menu_video"
+                android:title="YouTube" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
